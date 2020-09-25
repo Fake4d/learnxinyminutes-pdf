@@ -1,12 +1,3 @@
 *.markdown
-*.md
-*.csv
-*.erb
-*.directory
-
-sk-sk
 !README.md
-
-token.txt
-*.zip
 *.pdf
