@@ -5,8 +5,7 @@
 ## Download the German version of the files
 
 * Downloads (The German version all-in-one PDF and the single topic PDF files) are hosted on [GitHub Releases](https://github.com/fake4d/learnxinyminutes-pdf/releases/tag/v2020.09.25)
-* [learnxinyminutes.pdf](https://github.com/fake4d/learnxinyminutes-pdf/releases/tag/v2020.09.25/learnxinyminutes.pdf) is the all-in-one PDF.
-* The individual PDF files can be found as [release attachments](https://github.com/fake4d/learnxinyminutes-pdf/releases/tag/v2020.09.25).
+* [learnxinyminutes.pdf](https://github.com/Fake4d/learnxinyminutes-pdf/releases/download/v2020.09.25/learnxinyminutes.pdf) is the all-in-one PDF.
 
 ### Requirements for using the scripts
 
