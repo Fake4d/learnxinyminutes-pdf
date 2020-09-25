@@ -1,6 +1,6 @@
 # Learn X in Y minutes - PDF
 
-[Learn X in Y minutes](http://learnxinyminutes.com) as PDF. Source of the files = https://github.com/adambard/learnxinyminutes-docs
+German version of [Learn X in Y minutes](http://learnxinyminutes.com) as PDF. Source of the files = https://github.com/adambard/learnxinyminutes-docs
 
 ## Download the German version of the files
 
@@ -9,14 +9,14 @@
 
 ### Requirements for using the scripts
 
-* Python 3
+* Python 3 (for `gen-full-pdf.py`)
 * Pandoc
 * TeX Live: XeTeX and packages
 
-On Ubuntu 20.04 just type "sudo apt install pandoc texlive-xetex"
+On Ubuntu 20.04 just type `sudo apt install pandoc texlive-xetex`
 
 ### Instructions
 
 1. Download the input markdown files (example: "css-de.html.markdown") of choice from https://github.com/adambard/learnxinyminutes-docs and save them directly into the folder "input".
-2. Run `python gen-full-pdf.py`. It generates the all-in-one pdf. 
+2. Run `python gen-full-pdf.py`. It generates the all-in-one pdf "learnxinyminutes.pdf". 
 3. Run `./gen-single-pdf.sh`. It generates the individual pdf-s. Note that this takes the generated files from Python script (in "/input" directory) as the input.
