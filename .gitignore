@@ -1,3 +1,4 @@
 *.markdown
 !README.md
 *.pdf
+_temp

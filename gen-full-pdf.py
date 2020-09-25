@@ -35,14 +35,20 @@ syntax_aliases = {
 if not os.path.isdir(dir_name):
 	os.mkdir(dir_name)
 
+# Create output directory if not exists
+if not os.path.isdir('output'):
+	os.mkdir('output')
+
 ls = []
 
 
-for i in os.listdir():
-	if os.path.isfile(i) and i.endswith('.html.markdown'):
+for i in os.listdir("./input/"):
+	f="./input/"+i
+	if os.path.isfile(f) and i.endswith('.html.markdown'):
 		lang = i.replace('.html.markdown', '')
+		print(i)
 		# copy the files . also used by _genpdf.sh
-		copyfile(i, dir_name + '/' + i)
+		copyfile(f, dir_name + '/' + i)
 		# Don't build them as they create problems
 		if lang == 'latex' or lang == 'markdown':
 			continue
@@ -74,10 +80,10 @@ call(
 	ls +
 	[
 		'-o',
-		'learnxinyminutes.pdf',
+		'output/learnxinyminutes.pdf',
 		'-V',
 		'geometry:margin=1in',
-		'--latex-engine=xelatex',
+		'--pdf-engine=xelatex',
 		# '--template=template.tex',
 	]
 )
