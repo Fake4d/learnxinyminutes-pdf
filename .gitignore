@@ -1,4 +1,5 @@
 *.markdown
 !README.md
 *.pdf
-_temp
+/_temp/*
+/output/*
